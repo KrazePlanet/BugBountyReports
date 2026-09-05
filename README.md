@@ -1,5 +1,10 @@
 # BugBountyReports
 
+## Create Files
+```console
+curl -s "https://raw.githubusercontent.com/KrazePlanet/BugBountyReports/refs/heads/main/README.md" | grep -oP '\[View\]\(\K[^)]+' | xargs -n1 touch
+```
+
 ## 📊 Progress
 
 ### Content Discovery
